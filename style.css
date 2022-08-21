@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Noto Sans", sans-serif;
+  background: url("https://images.unsplash.com/photo-1458442310124-dde6edb43d10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")
+    center center / cover no-repeat;
+}
+.page-title {
+  margin-bottom: 30px;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  color: #b31724;
+}
+.timer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timer__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.timer__item__num {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.timer__item__name {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
