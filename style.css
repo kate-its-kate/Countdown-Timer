@@ -15,21 +15,24 @@ body {
   height: 100vh;
   overflow: hidden;
   font-family: "Noto Sans", sans-serif;
-  background: url("https://images.unsplash.com/photo-1458442310124-dde6edb43d10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")
+  background: url("https://images.unsplash.com/photo-1546472585-e7d35e6e68a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")
     center center / cover no-repeat;
 }
 .page-title {
   margin-bottom: 30px;
-  font-size: 3rem;
+  font-size: 6rem;
   line-height: 1.5;
   text-align: center;
   text-transform: uppercase;
-  color: #b31724;
+  color: #eff701;
 }
 .timer__wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #eff701;
 }
 .timer__item {
   display: flex;
